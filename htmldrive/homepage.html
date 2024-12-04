@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class Homepage</title>
+    <!-- Link to Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>1KA05 Gunadarma University</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#announcements">Announcements</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="biodatakelas.html">Class Biodata</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Our Class</h2>
+        <p>Welcome to the class of 1KA05 GUNADARMA UNIVERSITY!</p>
+        <div class="container">
+          <div class="welcome-container">
+        
+          </div>
+    
+          <div class="grid">
+            <div class="card">
+              <h3>Class Details</h3>
+              <p>Semester: 1</p>
+              <p>Academic Year: 2024/2025</p>
+              <p>Total Students: 38</p>
+            </div>
+    
+            <div class="card">
+              <h3>Class Representative</h3>
+              <p>Class Leader: Moreno Putra Pratama</p>
+              <p>Vice Leader: Muhammad Daffa Athaya</p>
+              <p>Treasurer: Vivi</p>
+              <p>Secretary: Dian</p>
+              <p>Vice Secretary: Aliya</p>
+            </div>
+    
+            <div class="card">
+              <h3>Quick Links</h3>
+              <div class="quick-links">
+                <a href="https://v-class.gunadarma.ac.id/">Virtual Class</a>
+                <a href="https://studentsite.gunadarma.ac.id/">Student Site</a>
+                <a href="https://vm.lepkom.gunadarma.ac.id/">Lepkom Gunadarma</a>
+                <a href="https://praktikum.gunadarma.ac.id/login/index.php"
+                  >Praktek</a
+                >
+                
+              </div>
+            </div>
+          </div>
+    
+      </section>
+
+      <section id="announcements">
+        <h2>Announcements</h2>
+        <ul id="announcement-list">
+          <!-- Announcements will be populated by JavaScript -->
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Information</h2>
+        <p>
+          If you have any questions, feel free to reach out to us at our admin
+          <a href="davidarnoldio@gmail.com">Click here!</a>
+        </p>
+      </section>
+
+      <section id="schedule">
+        <h2>Class Schedule</h2>
+        <input
+    type="text"
+    id="search-bar"
+    placeholder="Search subjects..."
+    style="width: 100%; padding: 10px; margin-bottom: 15px; font-size: 16px;"
+  />
+        <table id="schedule-table">
+          <thead>
+
+            <tr>
+              <th>Time</th>
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>07:30 - 08:30</td>
+              <td>Digital Citizenship</td>
+              <td>Libur</td>
+              <td>Konsep Sistem dan Teknik C</td>
+              <td>-</td>
+              <td>Konsep Sistem dan Teknik B</td>
+            </tr>
+            <tr>
+              <td>08:30 - 09:30</td>
+              <td>Digital Citizenship</td>
+              <td>Libur</td>
+              <td>Konsep Sistem dan Teknik C</td>
+              <td>-</td>
+              <td>Konsep Sistem dan Teknik B</td>
+            </tr>
+          </tr>
+          <tr>
+            <td>09:30 - 10:30</td>
+            <td>Fisika dan Kimia B</td>
+            <td>Libur</td>
+            <td>Matematika 1B</td>
+            <td>-</td>
+            <td>Pendidikan Pancasila</td>
+          </tr>
+          <tr>
+            <td>10:30 - 11:30</td>
+            <td>Fisika dan Kimia B</td>
+            <td>Libur</td>
+            <td>Matematika 1B</td>
+            <td>Algoritma dan Pemrograman 1A</td>
+            <td>Pendidikan Pancasila</td>
+          </tr>
+          <tr>
+            <td>11:30 - 12:30</td>
+            <td>Fisika dan Kimia Dasar A</td>
+            <td>Libur</td>
+            <td>Algoritma Dan Pemrograman B</td>
+            <td>Algoritma Dan Pemrograman A</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>12:30 - 13:30</td>
+            <td>Istirahat</td>
+            <td>Libur</td>
+            <td>Algoritma Dan Pemrograman B</td>
+            <td>Istirahat</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>13:30 - 14:30</td>
+            <td>Istirahat</td>
+            <td>Libur</td>
+            <td>Istirahat</td>
+            <td>Peng. Bisnis Dan Ekonomi Digital</td>
+            <td>Matematika Dasar A</td>
+          </tr>
+          <tr>
+            <td>14:30 - 15:30</td>
+            <td>Ilmu Sosial Dan Budaya</td>
+            <td>Libur</td>
+            <td>Istirahat</td>
+            <td>Peng. Bisnis Dan Ekonomi Digital</td>
+            <td>Matematika Dasar A</td>
+          </tr>
+          <tr>
+            <td>15:30 - 16:30</td>
+            <td>Ilmu Sosial Dan Budaya</td>
+            <td>Libur</td>
+            <td>Algoritma Dan Pemrograman</td>
+            <td>-</td>
+            <td>Konsep Sistem Dan Teknologi Sistem Informasi</td>
+          </tr>
+          <tr>
+            <td>16:30 - 17:30</td>
+            <td>-</td>
+            <td>Libur</td>
+            <td>Algoritma Dan Pemrograman C</td>
+            <td>-</td>
+            <td>Konsep Sistem Dan Teknologi Informasi</td>
+          </tr>
+        </tbody>
+ 
+    </section>
+        </table>
+      </section>
+
+      <section id="resources">
+        <h2>Resources</h2>
+        <ul id="resource-list">
+          <!-- Resources will be populated by JavaScript -->
+        </ul>
+      </section>
+    </main>
+    <div class="photo-gallery">
+      <h2>Our Class Admins</h2>
+      <div class="gallery">
+        <div class="photo-frame">
+          <img src="https://i.ibb.co/2dTxrPN/vivi2.jpg/100/100" alt="Vivi" />
+          <p>Vivi</p>
+          <a href="https://www.instagram.com/vivi.stmrngg/?utm_source=ig_web_button_share_sheet" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/+62 813-8421-5063" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+        <div class="photo-frame">
+          <img src="https://i.ibb.co/48hSK37/dapa.jpg/100/100" alt="Dapa" />
+          <p>Dapa</p>
+          <a href="https://www.instagram.com/daaffaathaya/?utm_source=ig_web_button_share_sheet" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/+62 812-8052-4820" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+        <div class="photo-frame">
+          <img src="https://i.ibb.co/bbfyHHx/reno.jpg100/100" alt="Moreno" />
+          <p>Moreno</p>
+          <a href="https://www.instagram.com/moreno_ptrtma/?utm_source=ig_web_button_share_sheet" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/+62 813-1690-2764" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+        <div class="photo-frame">
+          <img src="https://i.ibb.co/C9fmYRz/Whats-App-Image-2024-10-23-at-09-47-07-e876587f.jpg/100/100" alt="Dian" />
+          <p>Dian</p>
+          <a href=https://www.instagram.com/dianprdni/?utm_source=ig_web_button_share_sheet" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/+62 858-8900-9173" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+        <div class="photo-frame">
+          <img src="https://i.ibb.co/FWFBLQn/manda.jpg/100/100" alt="Manda" />
+          <p>Manda</p>
+          <a href="https://www.instagram.com/xalpnmaf?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/+62 895-3853-02705" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+        <div class="photo-frame">
+          <img src="https://i.ibb.co/bWQmPkJ/aliya.jpg/100/100" alt="Aliya" />
+          <p>Aliya</p>
+          <a href="https://www.instagram.com/aliyanurjanah_/?utm_source=ig_web_button_share_sheet" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/+62 895-3962-08400" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Gunadarma. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
